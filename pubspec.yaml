@@ -1,0 +1,26 @@
+name: lockly_api
+description: A Lockly API client for Dart.
+version: 0.1.0
+homepage: https://github.com/hacker1024/lockly_api.dart
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+executables:
+  decrypt-lockly-user-key: decrypt_key
+
+dependencies:
+  meta: ^1.9.1
+  http: ^1.0.0
+  convert: ^3.1.1
+  pointycastle: ^3.7.3
+  dart_des: ^1.0.2
+  uuid: ^3.0.7
+  freezed_annotation: ^2.2.0
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  lint: ^2.1.2
+  build_runner: ^2.4.5
+  freezed: ^2.3.5
+  json_serializable: ^6.7.0

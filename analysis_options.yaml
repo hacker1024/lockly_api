@@ -1,0 +1,9 @@
+include: package:lint/package.yaml
+
+analyzer:
+  errors:
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    sort_pub_dependencies: false
